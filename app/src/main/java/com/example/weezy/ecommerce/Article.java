@@ -5,5 +5,5 @@ package com.example.weezy.ecommerce;
  */
 
 public class Article {
-    dld
+    dldh
 }
