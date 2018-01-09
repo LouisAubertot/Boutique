@@ -3,35 +3,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
-    </group>
-
-    <item android:title="Communicate">
+    <item android:title="Boutique">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_categorie"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="Categorie" />
+            <item
+                android:id="@+id/nav_article"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Article" />
+            <item
+                android:id="@+id/nav_promotion"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Promotions" />
+        </menu>
+    </item>
+
+    <item android:title="Ventes">
+        <menu>
+            <item
+                android:id="@+id/nav_client"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Clients" />
+            <item
+                android:id="@+id/nav_command"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Commande" />
         </menu>
     </item>
 
