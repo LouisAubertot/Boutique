@@ -5,4 +5,7 @@ package com.example.weezy.ecommerce;
  */
 
 public class Article {
+
+wxcdvfgbhn,j;k
+
 }
