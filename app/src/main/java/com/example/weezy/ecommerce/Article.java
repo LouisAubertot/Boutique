@@ -5,4 +5,10 @@ package com.example.weezy.ecommerce;
  */
 
 public class Article {
+
+private Float tarif;
+private String ref;
+private String nom;
+private String visuel;
+
 }
