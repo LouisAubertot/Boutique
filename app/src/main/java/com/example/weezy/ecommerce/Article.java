@@ -6,6 +6,5 @@ package com.example.weezy.ecommerce;
 
 public class Article {
 
-wxcdvfgbhn,j;kcfdff
-
+wxcdvfgbhn,j;kcfdfftgggdgd
 }
