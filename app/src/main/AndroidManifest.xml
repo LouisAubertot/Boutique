@@ -24,7 +24,7 @@
         <activity
             android:name=".Categorie"
             android:label="Categorie"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            />
     </application>
 
 </manifest>
