@@ -36,8 +36,9 @@ public class ImageFromUrl extends AsyncTask<String, Void, Bitmap>
     }
 
 
-
+/**
     protected void onPostExecute(Bitmap result)
+
     {
         if(result==null)
         {
@@ -50,6 +51,6 @@ public class ImageFromUrl extends AsyncTask<String, Void, Bitmap>
         this.activite.terminePatience();
     }
 
-
+**/
 
 }
