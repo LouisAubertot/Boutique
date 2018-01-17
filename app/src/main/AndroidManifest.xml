@@ -24,6 +24,7 @@
         <activity
             android:name=".Activity.CategorieActivity"
             android:label="Categorie"
+            android:parentActivityName=".Activity.MainActivity"
             />
     </application>
 
