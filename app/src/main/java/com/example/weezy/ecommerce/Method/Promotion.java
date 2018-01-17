@@ -1,4 +1,4 @@
-package com.example.weezy.ecommerce;
+package com.example.weezy.ecommerce.Method;
 
 import java.util.Date;
 

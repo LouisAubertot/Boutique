@@ -1,4 +1,4 @@
-package com.example.weezy.ecommerce;
+package com.example.weezy.ecommerce.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,6 +13,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.weezy.ecommerce.R;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -84,7 +86,7 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_view) {
             // Handle the camera action
         } else if (id == R.id.nav_categorie) {
-            Intent appelCategorie= new Intent (this, Categorie.class);
+            Intent appelCategorie= new Intent (this, CategorieActivity.class);
             startActivity(appelCategorie);
 
         } else if (id == R.id.nav_client) {

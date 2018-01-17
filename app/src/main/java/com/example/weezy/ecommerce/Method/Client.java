@@ -1,4 +1,4 @@
-package com.example.weezy.ecommerce;
+package com.example.weezy.ecommerce.Method;
 
 /**
  * Created by Weezy on 09/01/2018.
