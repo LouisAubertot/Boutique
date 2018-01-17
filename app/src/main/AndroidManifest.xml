@@ -23,7 +23,7 @@
         </activity>
         <activity
             android:name=".Categorie"
-            android:label="@string/title_activity_categorie"
+            android:label="Categorie"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
