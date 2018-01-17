@@ -6,4 +6,8 @@
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_categorie">activity_categorie</string>
+    <string name="title_activity_article">ArticleActivity</string>
+    <string name="title_activity_client">ClientActivity</string>
+    <string name="title_activity_commande">CommandeActivity</string>
+    <string name="title_activity_promo">PromoActivity</string>
 </resources>

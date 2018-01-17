@@ -24,8 +24,23 @@
         <activity
             android:name=".Activity.CategorieActivity"
             android:label="Categorie"
-            android:parentActivityName=".Activity.MainActivity"
-            />
+            android:parentActivityName=".Activity.MainActivity" />
+        <activity
+            android:name=".Activity.ArticleActivity"
+            android:label="@string/title_activity_article"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.ClientActivity"
+            android:label="@string/title_activity_client"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.CommandeActivity"
+            android:label="@string/title_activity_commande"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.PromoActivity"
+            android:label="@string/title_activity_promo"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
