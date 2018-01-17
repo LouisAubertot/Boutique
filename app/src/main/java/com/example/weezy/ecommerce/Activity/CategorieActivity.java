@@ -8,6 +8,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ListView;
 
+import com.example.weezy.ecommerce.Method.Categorie;
+import com.example.weezy.ecommerce.Method.CategorieAdapter;
 import com.example.weezy.ecommerce.R;
 
 public class CategorieActivity extends AppCompatActivity {
@@ -30,6 +32,13 @@ public class CategorieActivity extends AppCompatActivity {
             }
         });
     }
+    @Override
+    public void onStart(){
+        super.onStart();
 
+        CategorieAdapter adaptateur= new CategorieAdapter(this.getContext(),liste);
+        ListView listeView= getActivity().findViewById(R.id.cf_liste);
+        listeView.setAdapter(adaptateur);
+    }
 
 }

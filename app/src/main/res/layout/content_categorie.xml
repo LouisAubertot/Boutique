@@ -9,6 +9,7 @@
     tools:showIn="@layout/activity_categorie">
 
     <ListView
+        android:id="@+id/cf_liste"
         android:layout_width="368dp"
         android:layout_height="495dp"
         android:layout_marginBottom="8dp"
