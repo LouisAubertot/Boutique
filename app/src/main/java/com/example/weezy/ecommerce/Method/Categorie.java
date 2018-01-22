@@ -10,12 +10,11 @@ import com.example.weezy.ecommerce.Method.CategorieAdapter;
 public class Categorie {
 
 
-    private ArrayList<Categorie> liste;
-
-    liste = new ArrayList<Categorie>();
-
     private String nomCateg;
     private String visuel;
+
+    public Categorie(String nom, String visuel) {
+    }
 
     public String getNomCateg() {
         return nomCateg;

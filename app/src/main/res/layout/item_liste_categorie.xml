@@ -18,6 +18,20 @@
         android:id="@+id/cl_nom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="50"
+        android:layout_weight="30"
         android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/cl_pen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        app:srcCompat="@android:drawable/btn_star" />
+
+    <ImageView
+        android:id="@+id/cf_trash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        app:srcCompat="@android:drawable/btn_star" />
 </LinearLayout>
