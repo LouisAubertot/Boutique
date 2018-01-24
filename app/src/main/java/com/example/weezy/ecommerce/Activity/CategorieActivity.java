@@ -25,14 +25,14 @@ public class CategorieActivity extends AppCompatActivity{
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_categorie);
-
-
         liste = new ArrayList<Categorie>();
         liste.add(new Categorie("casquette","bonjour.png"));
     }
     @Override
     public void onStart(){
         super.onStart();
+
+
 
 
         CategorieAdapter adaptateur= new CategorieAdapter(this,liste);

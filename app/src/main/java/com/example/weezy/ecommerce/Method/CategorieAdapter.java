@@ -33,7 +33,7 @@ public class CategorieAdapter extends ArrayAdapter<Categorie>{
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        Categorie uneCategorie = liste.get(position);
+        Categorie uneCategorie = getItem(position);
 
         if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.item_liste_categorie, parent, false);

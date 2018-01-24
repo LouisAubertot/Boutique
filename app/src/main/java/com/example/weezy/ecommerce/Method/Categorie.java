@@ -13,7 +13,8 @@ public class Categorie {
     private String nomCateg;
     private String visuel;
 
-    public Categorie(String nom, String visuel) {
+    public Categorie(String nomCateg, String visuel) {
+
     }
 
     public String getNomCateg() {
@@ -29,6 +30,7 @@ public class Categorie {
     }
 
     public void setVisuel(String visuel) {
+
         this.visuel = visuel;
     }
 
