@@ -90,12 +90,21 @@ public class MainActivity extends AppCompatActivity
             startActivity(appelCategorie);
 
         } else if (id == R.id.nav_client) {
+            Intent appelClient= new Intent (this, ClientActivity.class);
+            startActivity(appelClient);
 
         } else if (id == R.id.nav_command) {
+            Intent appelCommand= new Intent (this, CommandeActivity.class);
+            startActivity(appelCommand);
 
         } else if (id == R.id.nav_promotion) {
+            Intent appelPromo= new Intent (this, PromoActivity.class);
+            startActivity(appelPromo);
 
         } else if (id == R.id.nav_article) {
+            Intent appelArticle= new Intent (this, ArticleActivity.class);
+            startActivity(appelArticle);
+
 
         }
 

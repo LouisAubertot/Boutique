@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".Activity.MainActivity"
-            android:label="@string/app_name"
+            android:label="La Boutique Enorme"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,25 +22,29 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activity.CategorieActivity"
-            android:label="Categorie"
-            android:parentActivityName=".Activity.MainActivity" />
+        android:name=".Activity.CategorieActivity"
+        android:label="Categorie"
+        android:parentActivityName=".Activity.MainActivity" />
         <activity
             android:name=".Activity.ArticleActivity"
-            android:label="@string/title_activity_article"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="Articles"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Activity.MainActivity"/>
         <activity
             android:name=".Activity.ClientActivity"
-            android:label="@string/title_activity_client"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="Espace Client"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Activity.MainActivity"/>
         <activity
             android:name=".Activity.CommandeActivity"
-            android:label="@string/title_activity_commande"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="Vos Commandes"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Activity.MainActivity"/>
         <activity
             android:name=".Activity.PromoActivity"
-            android:label="@string/title_activity_promo"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:label="Les Promotions"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Activity.MainActivity"></activity>
     </application>
 
 </manifest>

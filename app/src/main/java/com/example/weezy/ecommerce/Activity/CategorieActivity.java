@@ -25,6 +25,7 @@ public class CategorieActivity extends AppCompatActivity{
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_categorie);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         liste = new ArrayList<Categorie>();
         liste.add(new Categorie("casquette","bonjour.png"));
     }
