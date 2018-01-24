@@ -27,7 +27,11 @@ public class CategorieActivity extends AppCompatActivity{
         setContentView(R.layout.content_categorie);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         liste = new ArrayList<Categorie>();
-        liste.add(new Categorie("casquette","img.png"));
+        liste.add(new Categorie("Casquette","img.png"));
+        liste.add(new Categorie("T-Shirt","img.png"));
+        liste.add(new Categorie("Polos","img.png"));
+        liste.add(new Categorie("Chemises","img.png"));
+        liste.add(new Categorie("Pantalons","img.png"));
     }
     @Override
     public void onStart(){

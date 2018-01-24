@@ -13,7 +13,10 @@ public class Categorie {
     private String nomCateg;
     private String visuel;
 
-    public Categorie(String nomCateg, String visuel) {
+    public Categorie(String nomCat, String visu) {
+
+        setNomCateg(nomCat);
+        setVisuel(visu);
 
     }
 
