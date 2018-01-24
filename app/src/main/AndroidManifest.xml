@@ -22,28 +22,28 @@
             </intent-filter>
         </activity>
         <activity
-        android:name=".Activity.CategorieActivity"
-        android:label="Categorie"
-        android:parentActivityName=".Activity.MainActivity" />
+            android:name=".Activity.CategorieActivity"
+            android:label="Categorie"
+            android:parentActivityName=".Activity.MainActivity" />
         <activity
             android:name=".Activity.ArticleActivity"
             android:label="Articles"
-            android:theme="@style/AppTheme.NoActionBar"
+
             android:parentActivityName=".Activity.MainActivity"/>
         <activity
             android:name=".Activity.ClientActivity"
             android:label="Espace Client"
-            android:theme="@style/AppTheme.NoActionBar"
+
             android:parentActivityName=".Activity.MainActivity"/>
         <activity
             android:name=".Activity.CommandeActivity"
             android:label="Vos Commandes"
-            android:theme="@style/AppTheme.NoActionBar"
+
             android:parentActivityName=".Activity.MainActivity"/>
         <activity
             android:name=".Activity.PromoActivity"
             android:label="Les Promotions"
-            android:theme="@style/AppTheme.NoActionBar"
+
             android:parentActivityName=".Activity.MainActivity"></activity>
     </application>
 
