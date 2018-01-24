@@ -16,7 +16,7 @@ import com.example.weezy.ecommerce.R;
 
 import java.util.ArrayList;
 
-public class CategorieActivity extends Fragment{
+public class CategorieActivity extends AppCompatActivity{
 
     private ArrayList<Categorie> liste;
 
@@ -27,14 +27,16 @@ public class CategorieActivity extends Fragment{
 
 
         liste = new ArrayList<Categorie>();
-        //liste.add(new Categorie("casquette","bonjour.png"));
+        liste.add(new Categorie("casquette","bonjour.png"));
     }
     @Override
     public void onStart(){
         super.onStart();
-        CategorieAdapter adaptateur= new CategorieAdapter(this.getContext(),liste);
-        ListView listeView= getActivity().findViewById(R.id.cf_liste);
-        listeView.setAdapter(adaptateur);
+
+
+        CategorieAdapter adaptateur= new CategorieAdapter(this,liste);
+        ListView listeView=findViewById(R.id.cf_liste);
+        //listeView.setAdapter(adaptateur);
     }
 
 
