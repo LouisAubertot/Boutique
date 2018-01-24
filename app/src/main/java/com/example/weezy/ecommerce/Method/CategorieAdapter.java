@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.weezy.ecommerce.R;
+import com.example.weezy.ecommerce.ImageFromUrl;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -43,7 +44,11 @@ public class CategorieAdapter extends ArrayAdapter<Categorie>{
 
         ImageView icone= (ImageView) convertView.findViewById(R.id.cl_visuel);
         if(icone.getDrawable()==null) try {
+
+
             icone.setImageDrawable(Drawable.createFromStream(contexte.getAssets().open(uneCategorie.getVisuel()),null));
+            //ImageFromUrl ifu= new ImageFromUrl(this.activite, icone, substitut);
+            //ifu.execute(""+uneCategorie.getVisuel());
         } catch (IOException ioe) {
 
         }

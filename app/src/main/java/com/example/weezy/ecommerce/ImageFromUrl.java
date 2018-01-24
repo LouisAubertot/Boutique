@@ -18,7 +18,7 @@ import java.net.MalformedURLException;
 
 public class ImageFromUrl extends AsyncTask<String, Void, Bitmap>
 {
-
+    ImageView bmImage;
 
     @Override
     protected Bitmap doInBackground(String... urls) {
@@ -29,28 +29,25 @@ public class ImageFromUrl extends AsyncTask<String, Void, Bitmap>
             InputStream in = new java.net.URL(urlIcone).openStream();
             icone = BitmapFactory.decodeStream(in);
         } catch (Exception e) {
-            Log.i("pasd'icone", "substitut utilisé a la place");
+            Log.i("pas d'icone", "substitut utilisé a la place");
 
         }
         return icone;
     }
 
 
-/**
-    protected void onPostExecute(Bitmap result)
-
-    {
+    /**protected void onPostExecute(Bitmap result) {
         if(result==null)
         {
-            bmImage.setImageBitmap(substitut);
+            bmImage.setImageDrawable(substitut);
         }
         else
         {
             bmImage.setImageBitmap(result);
         }
         this.activite.terminePatience();
-    }
+    }**/
 
-**/
+
 
 }
