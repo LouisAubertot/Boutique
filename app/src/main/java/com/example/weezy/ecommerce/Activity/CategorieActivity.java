@@ -24,6 +24,7 @@ public class CategorieActivity extends AppCompatActivity{
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.content_categorie);
 
 
         liste = new ArrayList<Categorie>();
@@ -36,7 +37,7 @@ public class CategorieActivity extends AppCompatActivity{
 
         CategorieAdapter adaptateur= new CategorieAdapter(this,liste);
         ListView listeView=findViewById(R.id.cf_liste);
-        //listeView.setAdapter(adaptateur);
+        listeView.setAdapter(adaptateur);
     }
 
 

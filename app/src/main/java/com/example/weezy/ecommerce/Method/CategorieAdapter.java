@@ -1,14 +1,17 @@
 package com.example.weezy.ecommerce.Method;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.weezy.ecommerce.R;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 /**
@@ -34,6 +37,15 @@ public class CategorieAdapter extends ArrayAdapter<Categorie>{
 
         if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.item_liste_categorie, parent, false);
+        }
+        TextView tvNom = (TextView) convertView.findViewById(R.id.cl_nom);
+        tvNom.setText(uneCategorie.getNomCateg());
+
+        ImageView icone= (ImageView) convertView.findViewById(R.id.cl_visuel);
+        if(icone.getDrawable()==null) try {
+            icone.setImageDrawable(Drawable.createFromStream(contexte.getAssets().open(uneCategorie.getVisuel()),null));
+        } catch (IOException ioe) {
+
         }
         return convertView;
     }
