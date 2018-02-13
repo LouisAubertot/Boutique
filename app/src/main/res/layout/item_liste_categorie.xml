@@ -26,6 +26,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="20"
+        android:onClick="onClickModifier"
+        android:clickable="true"
         app:srcCompat="@android:drawable/ic_menu_edit" />
 
     <ImageView
@@ -33,5 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="20"
+        android:onClick="onClickSupprimer"
+        android:clickable="true"
         app:srcCompat="@android:drawable/ic_menu_delete" />
 </LinearLayout>

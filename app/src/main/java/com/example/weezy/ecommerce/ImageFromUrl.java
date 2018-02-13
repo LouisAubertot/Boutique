@@ -36,17 +36,11 @@ public class ImageFromUrl extends AsyncTask<String, Void, Bitmap>
     }
 
 
-    /**protected void onPostExecute(Bitmap result) {
-        if(result==null)
-        {
-            bmImage.setImageDrawable(substitut);
-        }
-        else
-        {
+    protected void onPostExecute(Bitmap result) {
+
             bmImage.setImageBitmap(result);
-        }
-        this.activite.terminePatience();
-    }**/
+
+    }
 
 
 

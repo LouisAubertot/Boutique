@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -26,6 +27,7 @@ public class CategorieActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_categorie);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         liste = new ArrayList<Categorie>();
         liste.add(new Categorie("Casquette","img.png"));
         liste.add(new Categorie("T-Shirt","img.png"));
@@ -42,5 +44,15 @@ public class CategorieActivity extends AppCompatActivity{
         listeView.setAdapter(adaptateur);
     }
 
+    public void onClickModifier(View v)
+    {
+
+
+    }
+
+    public void onClickSupprimer(View v)
+    {
+
+    }
 
 }

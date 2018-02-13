@@ -13,6 +13,7 @@ public class Categorie {
     private String nomCateg;
     private String visuel;
 
+
     public Categorie(String nomCat, String visu) {
 
         setNomCateg(nomCat);
@@ -24,7 +25,12 @@ public class Categorie {
         return nomCateg;
     }
 
-    public void setNomCateg(String nomCateg) {
+    public void setNomCateg(String nomCateg)
+    {
+        if(nomCateg==null||nomCateg.trim().length()==0)
+        {
+            throw new IllegalArgumentException("Le nom de la categorie est vide");
+        }
         this.nomCateg = nomCateg;
     }
 
@@ -36,6 +42,7 @@ public class Categorie {
 
         this.visuel = visuel;
     }
+    
 
 
 }
