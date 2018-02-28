@@ -28,23 +28,20 @@
         <activity
             android:name=".Activity.ArticleActivity"
             android:label="Articles"
-
-            android:parentActivityName=".Activity.MainActivity"/>
+            android:parentActivityName=".Activity.MainActivity" />
         <activity
             android:name=".Activity.ClientActivity"
             android:label="Espace Client"
-
-            android:parentActivityName=".Activity.MainActivity"/>
+            android:parentActivityName=".Activity.MainActivity" />
         <activity
             android:name=".Activity.CommandeActivity"
             android:label="Vos Commandes"
-
-            android:parentActivityName=".Activity.MainActivity"/>
+            android:parentActivityName=".Activity.MainActivity" />
         <activity
             android:name=".Activity.PromoActivity"
             android:label="Les Promotions"
-
-            android:parentActivityName=".Activity.MainActivity"></activity>
+            android:parentActivityName=".Activity.MainActivity" />
+        <activity android:name=".Activity.MajNomCategorieActivity"></activity>
     </application>
 
 </manifest>

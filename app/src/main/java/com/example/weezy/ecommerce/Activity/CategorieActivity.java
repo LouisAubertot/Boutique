@@ -1,6 +1,7 @@
 package com.example.weezy.ecommerce.Activity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -15,6 +16,7 @@ import com.example.weezy.ecommerce.Method.Categorie;
 import com.example.weezy.ecommerce.Method.CategorieAdapter;
 import com.example.weezy.ecommerce.R;
 
+import java.lang.reflect.Modifier;
 import java.util.ArrayList;
 
 public class CategorieActivity extends AppCompatActivity{
@@ -42,12 +44,14 @@ public class CategorieActivity extends AppCompatActivity{
         CategorieAdapter adaptateur= new CategorieAdapter(this,liste);
         ListView listeView=findViewById(R.id.cf_liste);
         listeView.setAdapter(adaptateur);
+
+        
     }
 
     public void onClickModifier(View v)
     {
-
-
+        Intent appelClient= new Intent (this, MajNomCategorieActivity.class);
+        startActivity(appelClient);
     }
 
     public void onClickSupprimer(View v)
