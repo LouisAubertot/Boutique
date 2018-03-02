@@ -10,6 +10,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.example.weezy.ecommerce.Method.Categorie;
@@ -23,6 +24,7 @@ public class CategorieActivity extends AppCompatActivity{
 
     private ArrayList<Categorie> liste;
 
+    private static final int MODIFICATION_CATEGORIE=1;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -50,8 +52,8 @@ public class CategorieActivity extends AppCompatActivity{
 
     public void onClickModifier(View v)
     {
-        Intent appelClient= new Intent (this, MajNomCategorieActivity.class);
-        startActivity(appelClient);
+
+
     }
 
     public void onClickSupprimer(View v)
