@@ -8,7 +8,7 @@ Fonctionnalité:
 
 Non Fonctionnel mais fait 
 -Les pages Promotions et Articles sont prêtes a recevoir les données 
--les pages de modification des articles est faites mais non opérationnel
+-les pages de modification des articles est faites et le code de modification de l'article est égalment fait 
 
 
 Taux de pourcentage du travail
