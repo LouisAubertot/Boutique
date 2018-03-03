@@ -8,5 +8,5 @@ Fonctionnalité:
 
 Taux de pourcentage du travail
 
-AUBERTOT Louis: 40%
-LETANG Alexandre: 60%
+AUBERTOT Louis: 50%
+LETANG Alexandre: 50%
