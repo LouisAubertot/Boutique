@@ -41,7 +41,7 @@
             android:name=".Activity.PromoActivity"
             android:label="Les Promotions"
             android:parentActivityName=".Activity.MainActivity" />
-        <activity android:name=".Activity.MajNomCategorieActivity"></activity>
+        <activity android:name=".Activity.MajNomCategorieActivity" />
     </application>
 
 </manifest>
